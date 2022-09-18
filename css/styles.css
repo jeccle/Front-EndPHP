@@ -14,9 +14,16 @@
 .box {
     border-width: 1.2px;
     background-color:grey;
-    margin: 10px;
+    margin-left: 0px;
 }
 
+.col-box {
+    width: 25%;
+    background-color:grey;
+}
+.sidebar {
+
+}
 .bg-img {
     background-image: url("../images/bannerImage_Blur.jpg");
     max-width: 100%;
@@ -25,19 +32,24 @@
     background-size: cover;
     z-index: 0;
 }
-
+.card-title {
+    text-align: left;
+}
 #nav-title {
 
 }
 .title-box {
     border-width: 1.2px;
     border: 1px;
-    background-color: rgb(72, 182, 255);
+    background-color: rgb(62, 123, 255);
     text-align: center;
     align-content: center;
     padding: 20px;
     max-height: fit-content;
     margin-top: -30px;
+}
+.title-box h3 {
+    width: 100%;
 }
 .backdrop-box {
     background-color: rgb(40, 39, 53);
@@ -45,23 +57,35 @@
 
 }
 .card {
-  
-    
-    max-height: fit-content;
     margin-top: 5%;
     margin-left:2.5%;
     word-wrap: normal;
     margin-right: 3.6%;
 
 }
+.white-box{
+    background-color: aliceblue;
+}
+.btn {
+    position: relative;
+    justify-self: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .card-text {
-    overflow: scroll;
-    height: 210px;
+    overflow-y: auto;
+    height: 215px;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
 }
 .card-body {
     width: 100%;
-    max-height: fit-content;
-    
+    max-height: 380px;
+
+}
+.card-title {
+    max-height: 100px;
+    font-size: 1.2rem;
 }
 
 .card-box {
@@ -100,6 +124,34 @@
 }
 .banner-box img {
     
+}
+.sidebar-col {
+    width:30%;
+    justify-content: center;
+}
+.list-sidebar {
+    width: 98%;
+    background-color: rgb(105, 105, 105);
+    margin: 30px;
+    margin-left: 5px;
+    height: 80px;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+.side-button {
+    color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: auto;
+    height: 100%
+}
+.light-text {
+    color:aliceblue;
+    padding: 12px;
 }
 .nav-button {
     border-radius: 12px;
@@ -140,7 +192,7 @@
     border-width: 1px;
     max-width: 100%;
     border: 1px;
-    height: 240px;
+    height: 324px;
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
