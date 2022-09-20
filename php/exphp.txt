@@ -15,3 +15,5 @@ $employees = array(‘John’, ‘Michelle’, ‘Mari’, ‘Luke’, ‘Nellie
 </ul>
 </body>
 </html>
+
+<button type="button" class="btn btn-light" data-bs-toggle="collapse" data-bs-target=<?php print '#card'.$id?> aria-expanded="false" aria-controls="<?php echo '#card'.$id?>"><?php echo '#card'.$id?></button>
