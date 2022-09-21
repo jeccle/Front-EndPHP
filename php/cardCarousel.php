@@ -1,6 +1,5 @@
 
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-
 <div class="carousel-inner w-100">
     <div class="carousel-item active">  
     <?php include('card.php');?>

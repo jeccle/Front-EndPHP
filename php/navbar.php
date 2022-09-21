@@ -18,7 +18,7 @@
 
             </ul>
         </div>
-        <div class="container-fluid title-box d-flex justify-content-center">
+        <div class="container-fluid nav-title-box d-flex justify-content-center">
             <div class='nav-title light-text'>
         <h1><?php 
             @$message = 'Question ' . $id + 1;

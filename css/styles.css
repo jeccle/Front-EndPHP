@@ -1,7 +1,11 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.html, body { height: 100%; 
+.html, body { 
+    height: 100%; 
+    overflow-x:hidden;
+    
+
 }
 
 .nav-box {
@@ -12,10 +16,11 @@
     height: 50px;
 }
 .navbar {
-    height: 50px;
+    height: 40px;
     align-items: center;
     justify-content: center;
     justify-items: center;
+    
 }
 .box {
     border-width: 1.2px;
@@ -24,8 +29,6 @@
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
-
-    
 }
 
 
@@ -51,13 +54,10 @@
 .nav-title { 
     background-color: rgb(40, 39, 53);
     z-index: 5;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
     width: 100vw;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    padding-left: 0px;
     overflow-x: auto;
 }
 .title-box {
@@ -66,13 +66,32 @@
     background-color: rgb(62, 123, 255);
     text-align: center;
     align-content: center;
-    padding: 15px;
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
+    padding: 6px;
     overflow-x: hidden;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+    width: 101%;
+    margin-left:-0.5%;
+    margin-right:-0.5%;
+
+}
+.nav-title-box {
+    border-width: 1.2px;
+    border: 1px;
+    background-color: rgb(62, 123, 255);
+    text-align: center;
+    align-content: center;
+    padding: 6px;
+    overflow-x: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    width: 100%;
 
 }
 .sidebar-title-box {
@@ -83,12 +102,12 @@
     align-content: center;
     padding: 15px;
     margin-top: -30px;
-    margin-left: 0px;
+    margin-left: -40px;
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
     overflow-x: hidden;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 40px;
     padding-right: 0px;
 }
 .title-box h3 {
@@ -127,11 +146,14 @@
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 100px;
-    margin-bottom: 500px;
+    margin-bottom: 400px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 1vh;
+    padding-bottom: 5%;
     max-height: fit-content;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+
    
 }
 .carousel-inner {
@@ -166,13 +188,13 @@
     width: 10vw;
 }
 .white-box{
-    background-color: aliceblue;
+    background-color: rgb(201, 228, 252);
 }
 .btn {
-    position: relative;
-    justify-self: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
 }
 
 .card-text {
@@ -201,10 +223,11 @@
     border: 10px;
     height: 30px;
     max-height: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .nav-item{
     list-style: none;
-    border-bottom: 1px;
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -213,15 +236,36 @@
 }
 .title-box h1 {
     text-decoration:overline ;
-    text-decoration-thickness: 0.6rem;
+    text-decoration-thickness: 0.7rem;
     font-size: 2.5rem;
+    
+}
+.h1 title-box {
+    
 }
 .title-block {
     text-decoration:overline ;
     text-decoration-thickness: 0.6rem;
 }
+
 .nav-title-text {
     color:white;
+    padding-top: 5px;
+}
+.card-carousel-title {
+    padding-top: -10px;
+    margin-top: -10px;
+    text-decoration:overline ;
+    text-decoration-thickness: 0.6rem;
+    text-align: center;
+    vertical-align: top;
+    text-align: center;
+    padding: 6px;
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+
 }
 .nav-title-text p {
     font-size: 1.4rem;
@@ -243,11 +287,12 @@
     width: 100%;
     margin-right: 0px;
     margin-left: 0px;
+    margin-bottom: 10px;
 }
 
 .list-sidebar {
     width: 85%;
-    background-color: rgb(189, 233, 250);
+    background-color: rgb(131, 174, 255);
     margin: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -256,8 +301,6 @@
     align-items: center;
     justify-content: center;
     overflow:hidden;
-    padding-left: 0.75%;
-    padding-right: 0.75%;
     max-height: 200px;
     border-radius: 0.5rem;
 
@@ -275,7 +318,7 @@
     margin-top: 0.5px;
     margin-bottom: 0.5px;
     border-width: 1px;
-    background-color:rgb(201, 229, 253);
+    background-color:rgb(116, 187, 248);
     border: 2px;
     padding-bottom: 20px;
 }
@@ -325,13 +368,12 @@
 }
 
 .banner-box {
-    opacity: 0;
+    opacity: 15%;
     border-width: 1px;
     max-width: 100%;
     border: 1px;
-    height: 324px;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    height: 400px;
+    background: rgb(37, 105, 194);
 }
 .nav-item {
     flex-direction: column;
@@ -340,10 +382,8 @@
 }
 
 .navbar-item {
-    padding-bottom: 20px;
     padding: 10px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 0px;
 }
 
 
