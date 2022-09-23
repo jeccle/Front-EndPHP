@@ -17,10 +17,11 @@
             <div class='carousel-box'>
             <h1 class='title-box nav-title-text card-carousel-title'>Questions 1 - 9</h1>
             <?php include('php/cardCarousel.php') ?>
-            <?php include_once('php/footer.php')?>
+            
             </div>
         </div>
 
         </div>
+        <?php include_once('php/footer.php')?>
     </body>
 </html>

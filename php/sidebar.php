@@ -1,7 +1,7 @@
 <div class="min-vw-100px col-md-4 col-box box">
     <nav class="sidebar">
         <div class="sidebar-header">
-            <h4 class="sidebar-title-box light-text">More Information</h4>
+            <h4 class="sidebar-title-box light-text">More Info</h4>
         </div>
 
         <ul class="nav flex-sm-column nav-tabs box">
